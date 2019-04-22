@@ -34,5 +34,5 @@ mvn package
 Utilize o comando abaixo para inicializar o Hub com o matcher:
 
 ```sh
-java -cp selenium-server-standalone-3.141.59.jar:customMatcher-1.0-SNAPSHOT.jar org.openqa.grid.selenium.GridLauncherV3 -role hub -hubConfig hubConfig.json
+java -cp selenium-server-standalone-3.141.59.jar:customMatchers-1.0-SNAPSHOT.jar org.openqa.grid.selenium.GridLauncherV3 -role hub -hubConfig hubConfig.json
 ```
