@@ -2,9 +2,11 @@
 Exemplos de matchers para Selenium Grid
 
 
+Selecione o tipo de matcher 
+
 Certifique-se de adicionar a classe do matcher no arquivo de configuracao do node
 
-Exemplo:
+Exemplo de arquivo hubConfig.json:
 
 ```JSON
 {
@@ -21,6 +23,13 @@ Exemplo:
 }
 
 ```
+
+Gere o .jar do projeto com o comando maven
+
+```sh
+mvn package
+```
+
 
 Utilize o comando abaixo para inicializar o Hub com o matcher:
 

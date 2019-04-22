@@ -4,6 +4,9 @@ import org.openqa.grid.internal.utils.DefaultCapabilityMatcher;
 
 import java.util.Map;
 
+/**
+ * Matcher que facilita adicao de novas capabilities
+ */
 public class ExpansibleCustomMatcher extends DefaultCapabilityMatcher {
 
     Map<String,Object> nodeCapability;

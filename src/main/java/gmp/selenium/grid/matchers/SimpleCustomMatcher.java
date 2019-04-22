@@ -4,6 +4,9 @@ import org.openqa.grid.internal.utils.DefaultCapabilityMatcher;
 
 import java.util.Map;
 
+/**
+ * Matcher simples que verifica uma capability adicional
+ */
 public class SimpleCustomMatcher extends DefaultCapabilityMatcher {
 
 
