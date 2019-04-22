@@ -1,0 +1,12 @@
+{
+  "port": 4444,
+  "newSessionWaitTimeout": -1,
+  "servlets": [],
+  "custom": {},
+  "capabilityMatcher": "com.example.selenium.matcher.CustomMatcher",
+  "throwOnCapabilityNotPresent": true,
+  "cleanUpCycle": 5000,
+  "browserTimeout": 300,
+  "timeout": 600,
+  "maxSession": 5
+}
